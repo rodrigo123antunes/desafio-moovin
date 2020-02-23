@@ -1,0 +1,78 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+body {
+    font-family: sans-serif !important;
+    background-color: #F0EFEF !important;
+}
+.color {
+    color: #5E5D5D;
+}
+.title {
+    margin-bottom: 15px !important;
+    margin-top: 10px !important;
+}
+.content {
+    margin: 25px !important;
+    padding: 10px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 5px !important;
+}
+.tHead {
+    background-color: #F0EFEF !important;
+}
+.width30 {
+    width: 30% !important;
+}
+.width60 {
+    width: 60% !important;
+}
+.width10 {
+    width: 10% !important;
+}
+.rTable {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+    font-size: 12px !important;
+    border: 1px solid #F0EFEF !important;
+}
+th, td {
+    text-align: left !important;
+    padding: 8px !important;
+    border-bottom: 2px solid #F0EFEF !important;
+}
+
+.page-item {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    margin: 1px !important;
+    font-weight: bold !important;
+}
+
+.action-btn {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    margin: 1px !important;
+    font-weight: bold !important;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.active {
+    border: 1px solid #333 !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+}
