@@ -6,8 +6,8 @@ const Header = () => {
 		'https://www.moovin.com.br/assets/images/svg/logo2.svg';
 
 	return (
-		<div className="header-app">
-            <img src={logoMoovin} alt="logo" width="100" />
+		<div className='header-app'>
+            <img src={logoMoovin} alt='logo' width='100' />
         </div>
 	)
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Header from "./components/Header";
+import Header from './components/Header';
 import ReactPaginate from 'react-paginate';
 import './App.scss'
 import 'bootstrap/dist/css/bootstrap.css';
@@ -25,13 +25,13 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<div className="content">
-				<h5 className="color title">Últimas postagens</h5>
-				<table className="rTable color bold">
-					<thead className="tHead">
-						<th className="width30">Título</th>
-						<th className="width60">Conteúdo</th>
-						<th className="width10">Data de publicação</th>
+			<div className='content'>
+				<h5 className='color title'>Últimas postagens</h5>
+				<table className='rTable color bold'>
+					<thead className='tHead'>
+						<th className='width30'>Título</th>
+						<th className='width60'>Conteúdo</th>
+						<th className='width10'>Data de publicação</th>
 					</thead>
 					<tbody>
 						{
@@ -49,10 +49,10 @@ const App = () => {
 					</tbody>
 				</table>
 				<div className='row'>
-					<div className="col-md-6">
-						<p className="text-secondary font12">{`Exibindo ${postsPerPage} itens por página`}</p>
+					<div className='col-md-6'>
+						<p className='text-secondary font12'>{`Exibindo ${postsPerPage} itens por página`}</p>
 					</div>
-					<div className="col-md-6 d-flex justify-content-end">
+					<div className='col-md-6 d-flex justify-content-end'>
 						<ReactPaginate
 							previousClassName={'action-btn'}
 							nextClassName={'action-btn'}
